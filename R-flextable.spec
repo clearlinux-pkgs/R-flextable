@@ -4,7 +4,7 @@
 #
 Name     : R-flextable
 Version  : 0.7.2
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/flextable_0.7.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/flextable_0.7.2.tar.gz
 Summary  : Functions for Tabular Reporting
