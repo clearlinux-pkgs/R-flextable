@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-flextable
-Version  : 0.9.2
-Release  : 22
-URL      : https://cran.r-project.org/src/contrib/flextable_0.9.2.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/flextable_0.9.2.tar.gz
+Version  : 0.9.3
+Release  : 23
+URL      : https://cran.r-project.org/src/contrib/flextable_0.9.3.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/flextable_0.9.3.tar.gz
 Summary  : Functions for Tabular Reporting
 Group    : Development/Tools
 License  : GPL-3.0
@@ -52,10 +52,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687190126
+export SOURCE_DATE_EPOCH=1694190621
 
 %install
-export SOURCE_DATE_EPOCH=1687190126
+export SOURCE_DATE_EPOCH=1694190621
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
